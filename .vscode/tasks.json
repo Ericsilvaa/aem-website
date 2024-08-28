@@ -1,0 +1,78 @@
+// Press Ctrl + Shift + P and type "Tasks: Run Task" to run the tasks
+{
+  "version": "2.0.0",
+  "tasks": [
+    /* ---------- Maven Author - Build Complete ---------- */
+    {
+      "label": "AEM Author - Build Complete",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "panel": "shared",
+        "clear": true
+      },
+      "command": "mvn clean install -PautoInstallSinglePackage",
+      "problemMatcher": []
+    },
+    /* ---------- Maven Author - Build Core ---------- */
+    {
+      "label": "AEM Author - Build Core",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "panel": "shared",
+        "clear": true
+      },
+      "command": "cd core && mvn clean install -PautoInstallBundle",
+      "problemMatcher": []
+    },
+    /* ---------- Maven Author - Build Apps ---------- */
+    {
+      "label": "AEM Author - Build Apps",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "panel": "shared",
+        "clear": true
+      },
+      "command": "cd ui.apps && mvn clean install -PautoInstallPackage && cd ..",
+      "problemMatcher": []
+    },
+    /* ---------- Maven Author - Build Content ---------- */
+    {
+      "label": "AEM Author - Build Content",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "panel": "shared",
+        "clear": true
+      },
+      "command": "cd ui.content && mvn clean install -PautoInstallPackage && cd ..",
+      "problemMatcher": []
+    },
+    /* ---------- Maven Author - Build Core & Apps ---------- */
+    {
+      "label": "AEM Author - Build Core & Apps",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "panel": "shared",
+        "clear": true
+      },
+      "command": "cd core && mvn clean install -PautoInstallBundle && cd ../ui.apps && mvn clean install -PautoInstallPackage && cd ..",
+      "problemMatcher": []
+    },
+    /* ---------- Maven Author - Build Frontend & Apps ---------- */
+    {
+      "label": "AEM Author - Build Frontend & Apps",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "panel": "shared",
+        "clear": true
+      },
+      "command": "cd ui.frontend && mvn clean install -PautoInstallPackage && cd ../ui.apps && mvn clean install -PautoInstallPackage && cd ..",
+      "problemMatcher": []
+    }
+  ]
+}

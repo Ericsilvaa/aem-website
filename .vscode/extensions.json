@@ -1,0 +1,33 @@
+{
+  // "recommendations": [
+  //   "dbaeumer.vscode-eslint", // ESlint
+  //   "esbenp.prettier-vscode", // Prettier
+  //   "stylelint.vscode-stylelint", // Stylelint
+  //   "vue.volar", // Volar
+  //   "usernamehw.errorlens", // ErrorLens
+  //   "donjayamanne.githistory", // Git History
+  //   "eamodio.gitlens", // GitLens
+  //   "streetsidesoftware.code-spell-checker", // SpellCheck EN
+  //   "streetsidesoftware.code-spell-checker-portuguese-brazilian", // SpellCheck pt-BR
+  //   "sonarsource.sonarlint-vscode", // SonarLint
+  //   "yinkai15.aemsync", // AEM Sync
+  //   "cipchk.cssrem", // px to rem
+  //   "christian-kohler.path-intellisense", // Path Intellisense
+  //   "formulahendry.auto-close-tag", // Auto Close Tag
+  //   "formulahendry.auto-rename-tag", // Auto Rename Tag
+  //   "alexkrechik.cucumberautocomplete", // Cucumber (Gherkin) Full Support
+  //   "orta.vscode-jest", // Jest
+  //   "firsttris.vscode-jest-runner", // Jest Runner
+  //   "andys8.jest-snippets", // Jest Snippets
+  //   "syler.sass-indented", // Sass
+  //   "olmanslm.htl-for-vscode", //htl
+  //   "vscjava.vscode-java-pack", // Extension Pack for Java
+  //   "vscjava.vscode-java-debug",
+  //   "vscjava.vscode-maven",
+  //   "vscjava.vscode-java-test",
+  //   "vscjava.vscode-java-dependency",
+  //   "formulahendry.code-runner",
+  //   "WallabyJs.console-ninja",
+  //   "mrmlnc.vscode-apache",
+  //   ]
+}
